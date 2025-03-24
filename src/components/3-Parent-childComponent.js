@@ -3,7 +3,7 @@ import Footer from './SubComponents/Footer';
 //create component in component (<Footer />)
 function App2 () {
     return (
-        <div>
+        <div className="add-css">
             <h1>Hello a third time</h1>
             <ul>
                 <li>Thing 1</li>

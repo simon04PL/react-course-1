@@ -7,6 +7,8 @@ import MyInfo from './components/Practice/1-MyInfo';
 import ParentChildComponent from './components/3-Parent-childComponent';
 import ParentChildComponentPractice from './components/Practice/2-Parent-childComponentPractice'
 import reportWebVitals from './reportWebVitals';
+import ToDoList from './components/Practice/3-toDoList'
+import Caveats from './components/4-caveats';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,6 +19,8 @@ root.render(
     <MyInfo />
     <ParentChildComponent />
     <ParentChildComponentPractice />
+    <ToDoList />
+    <Caveats />
   </React.StrictMode>
 );
 
