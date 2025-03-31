@@ -8,9 +8,11 @@ import ParentChildComponent from './components/3-Parent-childComponent';
 import ParentChildComponentPractice from './components/Practice/2-Parent-childComponentPractice'
 import reportWebVitals from './reportWebVitals';
 import ToDoList from './components/Practice/3-toDoList'
-import Caveats from './components/4-caveats';
-import Variables from './components/5-variables';
-import InlineStyling from './components/6-inlineStyling';
+import Caveats from './components/4-Caveats';
+import Variables from './components/5-Variables';
+import InlineStyling from './components/6-InlineStyling';
+import Props from './components/7-Props';
+import PropStyle from './components/Practice/4-PropsStyle';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,6 +26,8 @@ root.render(
     <Caveats />
     <Variables />
     <InlineStyling />
+    <Props />
+    <PropStyle />
   </React.StrictMode>
 );
 
