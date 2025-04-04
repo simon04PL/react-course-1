@@ -1,4 +1,5 @@
 function TodoItem() {
+    //make a template
     return (
         <div>
             <input type="checkbox" id="myCheckbox"></input>

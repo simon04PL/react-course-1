@@ -1,6 +1,7 @@
 import ContactCard from "./SubComponents/ContactCard";
 
 function Props () {
+    //list contact card from ContactCard module
     return (
         <div clasName="contacts">
             <ContactCard 

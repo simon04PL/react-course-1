@@ -12,7 +12,9 @@ import Caveats from './components/4-Caveats';
 import Variables from './components/5-Variables';
 import InlineStyling from './components/6-InlineStyling';
 import Props from './components/7-Props';
-import PropStyle from './components/Practice/4-PropsStyle';
+import PropStyle from './components/Practice/4-PropStyle';
+import MappingComponents from './components/8-MappingComponents';
+import MappingComponentPractise from './components/Practice/5-MappingComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -28,6 +30,8 @@ root.render(
     <InlineStyling />
     <Props />
     <PropStyle />
+    <MappingComponents />
+    <MappingComponentPractise />
   </React.StrictMode>
 );
 
