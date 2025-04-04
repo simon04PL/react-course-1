@@ -1,4 +1,5 @@
 function ContactCard (props) {
+    //stylize contact card
     return (
         <div className="contact-card">
             <img src={props.imgSrc} />
