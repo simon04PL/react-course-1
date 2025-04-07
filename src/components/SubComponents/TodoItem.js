@@ -1,9 +1,9 @@
-function TodoItem() {
+function TodoItem(task) {
     //make a template
     return (
         <div>
-            <input type="checkbox" id="myCheckbox"></input>
-            <label className="myCheckbox" for="myCheckbox">Chceck me</label>
+            <input type="checkbox" checked={task.ifCheck} id="myCheckbox"></input>
+            <label className="myCheckbox" for="myCheckbox">{task.name}</label>
         </div>
     );
 }

@@ -15,6 +15,7 @@ import Props from './components/7-Props';
 import PropStyle from './components/Practice/4-PropStyle';
 import MappingComponents from './components/8-MappingComponents';
 import MappingComponentPractise from './components/Practice/5-MappingComponent';
+import ClassBasedComponents from './components/9-ClassBasedComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -32,6 +33,7 @@ root.render(
     <PropStyle />
     <MappingComponents />
     <MappingComponentPractise />
+    <ClassBasedComponents />
   </React.StrictMode>
 );
 
