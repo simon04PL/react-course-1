@@ -16,6 +16,11 @@ import PropStyle from './components/Practice/4-PropStyle';
 import MappingComponents from './components/8-MappingComponents';
 import MappingComponentPractise from './components/Practice/5-MappingComponent';
 import ClassBasedComponents from './components/9-ClassBasedComponent';
+import ClassBasedComponentPractise from './components/Practice/6-ClassBasedComponent';
+import State from './components/10-State';
+import StatePractice from './components/Practice/7-State';
+import StatePractise2 from './components/Practice/8-State-2';
+import toDoList4 from './components/Practice/9-toDoList4';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -34,6 +39,11 @@ root.render(
     <MappingComponents />
     <MappingComponentPractise />
     <ClassBasedComponents />
+    <ClassBasedComponentPractise />
+    <State />
+    <StatePractice />
+    <StatePractise2 />
+    <toDoList4 />
   </React.StrictMode>
 );
 

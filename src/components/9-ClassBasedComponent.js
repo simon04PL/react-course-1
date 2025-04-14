@@ -1,3 +1,4 @@
+//Do not forget about import react
 import React from "react"
 
 /*
@@ -10,11 +11,12 @@ function ClassBasedComponents () {
 }
 */
 
+//not use functional component but class based component
 class ClassBasedComponents extends React.Component {
     myMethod () {
 
     }
-
+    //render component based on the data from the method
     render() {
         const date = new Date();
         const style = this.myMethod();
