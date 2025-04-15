@@ -1,27 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import FirstApp from './components/1-FirstAppInReact';
-import Functions from './components/2-Functions';
-import MyInfo from './components/Practice/1-MyInfo';
-import ParentChildComponent from './components/3-Parent-childComponent';
-import ParentChildComponentPractice from './components/Practice/2-Parent-childComponentPractice'
+import FirstApp from './components/01-FirstAppInReact';
+import Functions from './components/02-Functions';
+import MyInfo from './components/Practice/01-MyInfo';
+import ParentChildComponent from './components/03-Parent-childComponent';
+import ParentChildComponentPractice from './components/Practice/02-Parent-childComponentPractice'
 import reportWebVitals from './reportWebVitals';
-import ToDoList from './components/Practice/3-toDoList'
-import Caveats from './components/4-Caveats';
-import Variables from './components/5-Variables';
-import InlineStyling from './components/6-InlineStyling';
-import Props from './components/7-Props';
-import PropStyle from './components/Practice/4-PropStyle';
-import MappingComponents from './components/8-MappingComponents';
-import MappingComponentPractise from './components/Practice/5-MappingComponent';
-import ClassBasedComponents from './components/9-ClassBasedComponent';
-import ClassBasedComponentPractise from './components/Practice/6-ClassBasedComponent';
+import ToDoList from './components/Practice/03-toDoList'
+import Caveats from './components/04-Caveats';
+import Variables from './components/05-Variables';
+import InlineStyling from './components/06-InlineStyling';
+import Props from './components/07-Props';
+import PropStyle from './components/Practice/04-PropStyle';
+import MappingComponents from './components/08-MappingComponents';
+import MappingComponentPractise from './components/Practice/05-MappingComponent';
+import ClassBasedComponents from './components/09-ClassBasedComponent';
+import ClassBasedComponentPractise from './components/Practice/06-ClassBasedComponent';
 import State from './components/10-State';
-import StatePractice from './components/Practice/7-State';
-import StatePractise2 from './components/Practice/8-State-2';
-import ToDoList4 from './components/Practice/9-toDoList4'; 
+import StatePractice from './components/Practice/07-State';
+import StatePractise2 from './components/Practice/08-State-2';
+import ToDoList4 from './components/Practice/09-toDoList4'; 
 import UserEvent from './components/11-UserEvent';  
+import TodoList5 from './components/Practice/10-toDoList5';
+import ChangingState from './components/12-ChangingState';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -46,6 +49,8 @@ root.render(
     <StatePractise2 />
     <ToDoList4 /> 
     <UserEvent />
+    <TodoList5 />
+    <ChangingState />
   </React.StrictMode>
 );
 
