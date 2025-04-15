@@ -24,7 +24,7 @@ import ToDoList4 from './components/Practice/09-toDoList4';
 import UserEvent from './components/11-UserEvent';  
 import TodoList5 from './components/Practice/10-toDoList5';
 import ChangingState from './components/12-ChangingState';
-
+import TodoList6 from './components/Practice/11-toDoList6';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -51,6 +51,7 @@ root.render(
     <UserEvent />
     <TodoList5 />
     <ChangingState />
+    <TodoList6 />
   </React.StrictMode>
 );
 

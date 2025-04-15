@@ -1,13 +1,15 @@
-function TodoItem({ id, name, ifCheck, handeChange }) {
+function TodoItem(task) {
     return (
         <div>
-            <input 
-                onChange={() => handeChange(id)} 
-                type="checkbox" 
-                checked={ifCheck} 
-                id={`checkbox-${id}`} 
+            <input
+                type="checkbox"
+                checked={task.item.complited}
+                onChange={() => task.handleChange(task.item.id)}
+                id={`checkbox-${task.item.id}`}
             />
-            <label className="myCheckbox" htmlFor={`checkbox-${id}`}>{name}</label>
+            <label className="myCheckbox" htmlFor={`checkbox-${task.item.id}`}>
+                {task.item.text}
+            </label>
         </div>
     );
 }
